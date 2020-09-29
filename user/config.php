@@ -11,18 +11,19 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'dburlzinha' );
+define( 'YOURLS_DB_USER', '	
+vivacega_vivacega_yourlink' );
 
 /** MySQL database password */
 define( 'YOURLS_DB_PASS', 'Omanftse05!' );
 
 /** The name of the database for YOURLS
  ** Use lower case letters [a-z], digits [0-9] and underscores [_] only */
-define( 'YOURLS_DB_NAME', 'yourls' );
+define( 'YOURLS_DB_NAME', 'vivacega_yourlink' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', 'localhost' );
+define( 'YOURLS_DB_HOST', 'h52.servidorhh.com:2083' );
 
 /** MySQL tables prefix
  ** YOURLS will create tables using this prefix (eg `yourls_url`, `yourls_options`, ...)
@@ -35,7 +36,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 
 /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
  ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-define( 'YOURLS_SITE', 'http://your-own-domain-here.com' );
+define( 'YOURLS_SITE', 'http://urlzinha.com' );
 
 /** YOURLS language
  ** Change this setting to use a translation file for your language, instead of the default English.
@@ -60,7 +61,7 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'username' => 'password',
+	'DangeloGH' => 'Omanftse05',
 	// 'username2' => 'password2',
 	// You can have one or more 'login'=>'password' lines
 	);
